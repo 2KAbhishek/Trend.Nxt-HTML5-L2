@@ -25,5 +25,5 @@ function showPosition(position) {
 }
 
 function errorPosition() {
-  document.getElementById("location").innerHTML = "Error in fetching location.";
+  document.getElementById("demo").innerHTML = "Error in fetching location.";
 }
