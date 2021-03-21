@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section class="yellowCir">
+      <svg width="100" height="100">
+        <circle id="yellowSvg" cx="50" cy="50" r="50" fill="#fef610"></circle>
+      </svg>
+    </section>
+
+    <section
+      id="yellow"
+      class="yellowDrop"
+      ondrop="drop(event)"
+      ondragover="allowDrop(event)"
+    ></section>
+
+    <section class="greenCir">
+      <svg width="100" height="100">
+        <circle id="greenSvg" cx="50" cy="50" r="50" fill="#56ff38"></circle>
+      </svg>
+    </section>
+
+    <section
+      id="green"
+      class="greenDrop"
+      ondrop="drop(event)"
+      ondragover="allowDrop(event)"
+    ></section>
+
+    <br /><br /><br /><br /><br />
+
+    <h2>Drag and Drop</h2>
+
+    <img
+      src="images/pikachu.gif"
+      alt="Check Internet Connection"
+      draggable="true"
+      ondragstart="drag(event)"
+      width="100"
+      height="100"
+    />
+
+    <p id="location"></p>
+
+    <h2>Location and Storage</h2>
+
+    <script src="script.js"></script>
+  </body>
+</html>
