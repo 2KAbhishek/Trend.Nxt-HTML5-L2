@@ -25,11 +25,6 @@
 
 <h2>Short sweet headline with 🎇🎉</h2>
 
-<figure>
-  <img src= "https://raw.githubusercontent.com/2KAbhishek/Trend.Nxt-HTML5-L2/master/images/screenshot.jpg" alt="Trend.Nxt-HTML5-L2 Demo" style="width:100%">
-  <figcaption>Trend.Nxt-HTML5-L2 Screenshot</figcaption>
-</figure>
-
 </div>
 
 ## Inspiration
