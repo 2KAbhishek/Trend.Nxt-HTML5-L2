@@ -34,7 +34,7 @@
 
 ## Inspiration
 
-Bareminimum was inspired by `<reason/idea>`.
+Trend.Nxt-HTML5-L2 was inspired by `<reason/idea>`.
 
 ## What it does
 
